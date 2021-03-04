@@ -29,7 +29,7 @@ Add it is an environment variable called `COMM_SERVICES_CONNECTION_STRING`
 The solution can then be run through an IDE like Visual Studio or Visual Studio Code.
 
 Making a request to `http://localhost:7071/api/AuthenticateUser` will return a User object
-with an Id, Access Token and Expiry timestamp. This same Id can be used to generate a new token.
+with an Id, Access Token and Expiry timestamp. This same Id can be used to generate a new token by passing it as a query param, like so: `http://localhost:7071/api/AuthenticateUser?userId=<userId>`.
 
 This token can then be used when setting up a chat thread with Azure Communication Services.
 
