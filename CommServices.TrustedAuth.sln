@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommServices.TrustedAuth", "CommServices.TrustedAuth.csproj", "{B6154EC7-6466-4F0B-8F9E-0F388925EE86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6154EC7-6466-4F0B-8F9E-0F388925EE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6154EC7-6466-4F0B-8F9E-0F388925EE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6154EC7-6466-4F0B-8F9E-0F388925EE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6154EC7-6466-4F0B-8F9E-0F388925EE86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
